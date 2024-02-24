@@ -1,0 +1,248 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+ 
+  } 
+
+a {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #00ffea9d;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.large{
+    width: 500px;
+    height: 500px;
+}
+
+.checkout-steps > .col {
+  /* box-shadow: 0px 1px 0px 0px gray; */
+  border-bottom: 1px solid #7a7a7a;
+  color: gray;
+  padding-bottom: 1px;
+}
+
+.checkout-steps > .col.active{
+  /* box-shadow: 0px 1px 0px 0px orange; */
+  border-bottom: 1px solid orange;
+  color: orange;
+  padding-bottom: 1px;
+  
+}
+
+footer {
+  text-align: center;
+  }
+  
+  .ProductDesc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  max-height: 3.6em; /* Adjust the height based on your font size and line height */
+  }
+  
+  .Card{
+      margin-top: 1.75rem;
+  }
+  
+  .Category{
+      margin: 2rem;
+  }
+  
+  .ImageBox{
+      background: white;
+  }
+  .rounded{
+      border-radius: 1%;
+  
+  }
+  .CenterImage{
+      display: Flex;
+      justify-content: center;
+  }
+  .form-control{
+    background-color: whitesmoke;
+  }
+  .quantityInput::-webkit-inner-spin-button,
+.quantityInput::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.quantityInput{
+  text-align:center;
+}
+.order-image{ 
+  width: 10vw; 
+  height: 15vh; }
+
+.Bold{
+  font-weight: bold;
+  font-size: 3vh;
+}
+.white-BG{
+  background-color: white;
+  color: black;
+}
+
+.equal-height-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.equal-height-column > * {
+  flex: 1;
+}
+.MMAccount{
+  font-size: large;
+  
+}
+ 
+.transparent-input {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 0;
+  color: black;
+}
+
+.Account-Detail-Spinner{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  backdrop-filter: blur(1px);
+  z-index: 1;
+}
+
+.BlurBox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(1px);
+  z-index: 1;
+}
+
+.test-box {
+  box-shadow: 1px 1px 1px 1px green;
+
+}
+
+.admin-page-container {
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  margin-left: -50vw;
+  left: 50%;
+  padding-right: 10vw; 
+}
+
+.border-0 {
+  padding: 0; 
+  margin: 0;
+
+}
+
+.chart-container {
+  max-height: 300px; /* Adjust the value as needed */
+}
+
+.Sidebar-menu:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  color: black;
+}
+
+@media print {
+  .hide-on-print {
+    display: none;
+  }
+}
+
+/* Add these styles to your global CSS or the component's stylesheet */
+.NavBar-Flex {
+  display: flex;
+  align-items: center; /* Align items vertically in the middle */
+}
+
+/* Adjust the spacing between items if needed */
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.yourSelectClass {
+  width: 25vw; /* Adjust the width as needed */
+}
+
+.confirmed{
+  color: green;
+  box-shadow: 0 0 3px green;
+}
+
+
+/* * {
+  box-shadow: 0 0 3px green;
+} */
